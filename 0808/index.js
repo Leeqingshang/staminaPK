@@ -10,7 +10,7 @@ function  getPrime(input){
          	i--;
        }  
    }
-   let resultChar = `${input}=${result.join('')}`;
+   let resultChar = `${input}=${result.join('*')}`;
    return resultChar;
 }
 
