@@ -5,8 +5,7 @@ function findOnly(arr){
 				 var count = 0;
 				 for(let j = 0;j < arr.length;j++ ){
 				     if(temp == arr[j]){
-					     count++;
-                         arr[j] = -1;						 
+					     count++;					 
 					 }
 				 }
 				 if(count > 1){continue}
