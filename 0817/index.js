@@ -9,5 +9,12 @@ function getQuadratic(arr){
    return result;   
 }
 
+function getNumber(arr){
+
+    return arr.map((elem) => Math.pow(elem,2))
+
+}
+
 let arr = [5,3,7,1];
-console.log(getQuadratic(arr));
+//console.log(getQuadratic(arr));
+console.log(getNumber(arr));
